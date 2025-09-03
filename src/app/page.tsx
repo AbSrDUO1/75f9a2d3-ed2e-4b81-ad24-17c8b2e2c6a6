@@ -28,9 +28,9 @@ export default function Home() {
         <HowToBuy3D
           title="How to Buy"
           steps={[
-            { title: "Step 1", description: "Create an account on our site", image: "/images/placeholder1.avif", position: "first", isCenter: false },
-            { title: "Step 2", description: "Verify your identity", image: "/images/placeholder2.avif", position: "second", isCenter: true },
-            { title: "Step 3", description: "Complete your purchase", image: "/images/placeholder3.avif", position: "last", isCenter: false }
+            { title: "Step 1", description: "Create an account on our site", image: "/images/placeholder1.avif", position: "left", isCenter: false },
+            { title: "Step 2", description: "Verify your identity", image: "/images/placeholder2.avif", position: "center", isCenter: true },
+            { title: "Step 3", description: "Complete your purchase", image: "/images/placeholder3.avif", position: "right", isCenter: false }
           ]}
         />
       </div>
